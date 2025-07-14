@@ -35,6 +35,7 @@ REACT_APP_API_URL=https://project-management-backends.vercel.app
 1. Clone the Repository
 
 git clone https://github.com/imsonugupta01/project-manager.git
+
 cd project-manager
 
 2. Install Dependencies
@@ -46,7 +47,6 @@ REACT_APP_API_URL=https://project-management-backends.vercel.app
 
 ▶️ Running the App
 
-After setting up .env, run:
 
 npm start
 
