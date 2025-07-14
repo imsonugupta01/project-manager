@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# 🌐 Project Manager – Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the **frontend** for the Project Management Tool built using **React + TypeScript**.
 
-## Available Scripts
+It connects to the backend API for user authentication, project creation, and task tracking.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend:** React.js + TypeScript
+- **State Management:** useState, useEffect
+- **Routing:** React Router
+- **API Requests:** Axios
+- **Styling:** CSS Modules / Tailwind / Custom CSS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌍 Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 Deployed Frontend: [https://project-manager-tau-six.vercel.app/](https://project-manager-tau-six.vercel.app/)  
+🔗 Backend API URL: [https://project-management-backends.vercel.app](https://project-management-backends.vercel.app)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔗 Backend API Base URL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The frontend connects to the backend using the following environment variable:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+env has 
+REACT_APP_API_URL=https://project-management-backends.vercel.app
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📦 Installation & Setup
+1. Clone the Repository
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/imsonugupta01/project-manager.git
+cd project-manager
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install Dependencies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+npm install
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+REACT_APP_API_URL=https://project-management-backends.vercel.app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+▶️ Running the App
+
+After setting up .env, run:
+
+npm start
+
+The frontend will be available at:
+
+http://localhost:3000
+
+🧪 Test Login Credentials
+
+To test the app, use the seeded user:
+
+Email: test@example.com
+Password: Test@123
+
+Dummy data already seeded via Backend.
