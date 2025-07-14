@@ -61,4 +61,4 @@ To test the app, use the seeded user:
 Email: test@example.com
 Password: Test@123
 
-Dummy data already seeded via Backend.
+Dummy data already seeded via seed script "npm run seed" while setting up backend .
